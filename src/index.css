@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Cormorant+Garamond:wght@500;600;700&display=swap');
+
+:root {
+  color-scheme: light;
+  --font-body: 'Manrope', 'Segoe UI', sans-serif;
+  --font-display: 'Cormorant Garamond', Georgia, serif;
+  --text: #415163;
+  --text-h: #132238;
+  --accent: #0b63ce;
+  --accent-soft: #f29a2e;
+  --panel: rgba(255, 255, 255, 0.86);
+  --panel-strong: rgba(247, 251, 255, 0.94);
+  font-family: var(--font-body);
+  line-height: 1.55;
+  font-weight: 400;
+  color: var(--text);
+  background:
+    radial-gradient(circle at top left, rgba(11, 99, 206, 0.16), transparent 30%),
+    radial-gradient(circle at bottom right, rgba(242, 154, 46, 0.14), transparent 32%),
+    linear-gradient(180deg, #f5f9ff 0%, #eef5ff 100%);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background: inherit;
+}
+
+body,
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+a {
+  color: inherit;
+}
+
+button,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+::selection {
+  background: rgba(11, 99, 206, 0.2);
+  color: #132238;
+}
